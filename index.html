@@ -1,0 +1,44 @@
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>Weather App</title>
+      <!--Main css file-->
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body class="green lighten-4">
+
+      <nav class="grey darken-3">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#" class="brand-logo left">Weather App</a>
+          </div>
+        </div>
+      </nav>
+      <div id="searchBar" class="container">
+        <div class="input-field col s12">
+            <input type="text" placeholder="Enter Zip Code Here..." id="zipBox">
+            <label for="first_name">Get Weather</label>
+          </div>
+          <br>
+          <button id="infoButton" class="btn waves-effect waves-light" type="submit" name="submit">Get Info
+            <i class="material-icons right">cloud</i>
+          </button>
+      </div>
+      <div class="container center-align">
+        <div id="info"class="main"></div>
+      </div>
+
+      <button class="button"><i class="material-icons">add_circle_outline</i>Sign Up</button>
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/index.js"></script>
+    </body>
+  </html>

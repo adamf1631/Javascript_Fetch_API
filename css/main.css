@@ -1,0 +1,28 @@
+.button{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.main{
+  border: thin solid #000;
+  display:inline-flex;
+  text-align: center;
+  width: auto;
+  font-size: 18px;
+}
+
+#info{
+  width:80%%;
+  height: auto;
+  padding:10px;
+  margin: auto;
+  margin-top: 2.3em;
+  margin-bottom: 2.3em;
+  text-align: center;
+}
+
+#searchBar{
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
